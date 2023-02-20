@@ -58,8 +58,3 @@ def save_csv_dict(filename, data):
     dict_writer.writeheader()
     dict_writer.writerows(data)
     f.close()
-
-
-# decode portuguese text
-def decode_pt(s):
-    return s.encode("iso-8859-1").decode("utf-8")
