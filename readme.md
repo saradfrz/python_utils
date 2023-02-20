@@ -1,7 +1,7 @@
 # Utils
 
 ## Project Description
-This project offers a collection of utility functions designed to standardize frequently used operations across various projects in multiple programming languages. The functions in this project cover a variety of areas, including working with directories and files, logging, database connections, and more.
+This project provides a set of Python utility functions to standardize common operations across different projects. The functions in this project cover a variety of areas, including working with directories and files, logging, database connections, and more.
 
 With these utility functions, you can easily perform tasks such as creating directories, reading and writing files, setting up logging for your project, connecting to databases, and executing SQL queries. The functions are designed to be reusable and customizable, allowing you to tailor them to your specific needs.
 
@@ -14,19 +14,88 @@ Python
 
 ## File utils 
 
-### `read_file(text/html)`
+### `read_file(filepath)`
+This function reads the content of a txt or html file.
+#### Arguments
+- `filepath` (str): File relative path. 
+##### Return Value
+- `str`: File contents.
+
+### `save_file(filepath, data)`
+This function saves a string to a file (admits txt or html format).
+#### Arguments
+- `filepath` (str): File relative path
+- `data` (str): File contents to be saved.
+#### Return Value
+- `bool`: `True` if successful.
+
+### `def read_json(filepath)`
+This function reads a json file.
+#### Arguments
+- `filepath` (str): File relative path
+#### Return Value
+- `dict`: JSON contents.
+
+### `save_json(filepath, data)`
+This function saves a list or a dictionary to a JSON file.
+#### Arguments
+- `filepath` (str): File relative path
+- `data` (list/dict): File contents to be saved.
+#### Return Value
+- `bool`: `True` if successful.
+
+### `read_csv(filepath, delimiter)`
+This function (edit).
+#### Arguments
+- `arg1` (str): File relative path
+- `ar2` (str): File contents to be saved.
+#### Return Value
+- `str`: Response of the saving operation.
 
 
-### `save_file(text,html)`
-### `read_json()`
-### `save_json()`
-### `list[list] = read_csv()`
-### `list[dict] = read_csv_as_dict()`
-### `save_csv(list[list])`
-### `save_csv_dict(list[dict])`
-### `decode_pt`
-- Dir utils
-    - `is_dir(mypath)`
-- Datetime utils: 
-    - `dt_now`
-- Log utils
+### `read_csv_as_dict(filepath, delimiter)`
+This function (edit).
+#### Arguments
+- `arg1` (str): File relative path
+- `ar2` (str): File contents to be saved.
+#### Return Value
+- `str`: Response of the saving operation.
+
+### `save_csv(filepath, data)`
+This function (edit).
+#### Arguments
+- `arg1` (str): File relative path
+- `ar2` (str): File contents to be saved.
+#### Return Value
+- `bool`: `True` if successful.
+
+### `save_csv_dict(filepath, data)`
+This function (edit).
+#### Arguments
+- `arg1` (str): File relative path
+- `ar2` (str): File contents to be saved.
+#### Return Value
+- `bool`: `True` if successful.
+
+
+## Dir utils
+
+### `is_dir(mypath)`
+This function (edit).
+#### Arguments
+- `arg1` (str): File relative path
+- `ar2` (str): File contents to be saved.
+#### Return Value
+- `str`: Response of the saving operation.
+
+
+## Datetime utils: 
+### `dt_now`
+This function (edit).
+#### Arguments
+- `arg1` (str): File relative path
+- `ar2` (str): File contents to be saved.
+#### Return Value
+- `str`: Response of the saving operation.
+
+## Log utils
