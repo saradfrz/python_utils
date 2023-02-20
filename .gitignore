@@ -1,13 +1,27 @@
-test.py
-test.txt
+# Passwords
+.env
+env
+config.json
 
+# Program files
+__pycache__
 .venv
 venv
 
-.env
-env
+# App files
+log/*.*
+input/*.*
+input/*.*
+output/*.*
+output/*.*
 
-input/*.csv
-input/*.json
-output/*.csv
-output/*.json
+# Test Files
+test.py
+test.txt
+
+
+
+
+
+
+
