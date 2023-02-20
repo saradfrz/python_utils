@@ -1,0 +1,13 @@
+test.py
+test.txt
+
+.venv
+venv
+
+.env
+env
+
+input/*.csv
+input/*.json
+output/*.csv
+output/*.json
