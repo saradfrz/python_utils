@@ -15,14 +15,14 @@ Python
 ## File utils 
 
 ### `read_file(filepath)`
-This function reads the content of a txt or html file.
+Reads the content of a txt or html file.
 #### Arguments
 - `filepath` (str): File relative path. 
 ##### Return Value
 - `str`: File contents.
 
 ### `save_file(filepath, data)`
-This function saves a string to a file (admits txt or html format).
+Saves a string to a file (admits txt or html format).
 #### Arguments
 - `filepath` (str): File relative path
 - `data` (str): File contents to be saved.
@@ -30,14 +30,14 @@ This function saves a string to a file (admits txt or html format).
 - `bool`: `True` if successful.
 
 ### `def read_json(filepath)`
-This function reads a json file.
+Reads a json file.
 #### Arguments
 - `filepath` (str): File relative path
 #### Return Value
 - `dict`: JSON contents.
 
 ### `save_json(filepath, data)`
-This function saves a list or a dictionary to a JSON file.
+Saves a list or a dictionary to a JSON file.
 #### Arguments
 - `filepath` (str): File relative path
 - `data` (list/dict): File contents to be saved.
@@ -81,21 +81,18 @@ This function (edit).
 ## Dir utils
 
 ### `is_dir(mypath)`
-This function (edit).
+Checks if *mypath* exists.
 #### Arguments
-- `arg1` (str): File relative path
-- `ar2` (str): File contents to be saved.
+- `mypath` (str): Relative path
 #### Return Value
-- `str`: Response of the saving operation.
+- `bool`: `True` if exists.
 
 
 ## Datetime utils: 
-### `dt_now`
-This function (edit).
-#### Arguments
-- `arg1` (str): File relative path
-- `ar2` (str): File contents to be saved.
+### `dt_now()`
+Returns today's date formatted as yyyy-mm-dd.
+
 #### Return Value
-- `str`: Response of the saving operation.
+- `str`: yyyy-mm-dd. Example: "2023-02-20"
 
 ## Log utils
