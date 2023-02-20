@@ -9,21 +9,24 @@ The utility functions are organized into modules, each of which covers a specifi
 
 This project is ideal for developers who want to standardize their development processes across multiple projects, or who want to quickly and easily perform common operations without having to write the same code over and over again. By using these utility functions, you can save time and effort, and focus on building the core functionality of your projects.
 
-## Languages
-- Python
+## Language
+Python
 
-## Utility categories
-- File utils: 
-    - `read_file(text/html)`
-    - `save_file(text,html)`
-    - `read_json()`
-    - `save_json()`
-    - `list[list] = read_csv()`
-    - `list[dict] = read_csv_as_dict()`
-    - `save_csv(list[list])`
-    - `save_csv_dict(list[dict])`
-    - `decode_pt`
+## File utils 
+
+### `read_file(text/html)`
+
+
+### `save_file(text,html)`
+### `read_json()`
+### `save_json()`
+### `list[list] = read_csv()`
+### `list[dict] = read_csv_as_dict()`
+### `save_csv(list[list])`
+### `save_csv_dict(list[dict])`
+### `decode_pt`
 - Dir utils
+    - `is_dir(mypath)`
 - Datetime utils: 
     - `dt_now`
 - Log utils
