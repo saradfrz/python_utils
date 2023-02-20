@@ -11,7 +11,7 @@ def read_file(filepath):
 
 def save_file(filepath, data):
     try:
-        f = open(filepath, "w")
+        f = open(filepath, "w", encoding="utf-8")
         response = f.write(data)
         f.close()
         return True
