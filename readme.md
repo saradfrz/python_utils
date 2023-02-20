@@ -1,4 +1,4 @@
-# Utils
+# Utils [in progress]
 
 ## Project Description
 This project provides a set of Python utility functions to standardize common operations across different projects. The functions in this project cover a variety of areas, including working with directories and files, logging, database connections, and more.
