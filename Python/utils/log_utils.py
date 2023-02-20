@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import logging
 
 # create a logger object
@@ -12,11 +14,11 @@ logging.basicConfig(
     )
 
 # create file handler for debug logs
-debug_file_handler = logging.FileHandler('log/debug.log')
+debug_file_handler = logging.FileHandler('log/debug.log', encoding='utf-8')
 debug_file_handler.setLevel(logging.DEBUG)
 
 # create file handler for error logs
-error_file_handler = logging.FileHandler('log/error.log')
+error_file_handler = logging.FileHandler('log/error.log', encoding='utf-8')
 error_file_handler.setLevel(logging.ERROR)
 
 # add the handlers to the logger
