@@ -13,7 +13,7 @@ This project is ideal for developers who want to standardize their development p
 - Python
 
 ## Utility categories
-- File utils
+- File utils: read_file(text/html), save_file(text,html), read_json, save_json, read_csv(output=list[list]), read_csv_as_dict(output=list[dict]), save_csv(list[list]), save_csv_dict(list[dict]), decode_pt
 - Dir utils
-- Datetime utils
+- Datetime utils: dt_now
 - Log utils
